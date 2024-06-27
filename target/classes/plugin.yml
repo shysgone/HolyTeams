@@ -5,3 +5,8 @@ commands:
   holyteams:
     description: Main command for HolyTeams
     usage: /<command>
+    aliases: [ht]
+  team:
+    description: Team command
+    usage: /<command>
+    aliases: [t]

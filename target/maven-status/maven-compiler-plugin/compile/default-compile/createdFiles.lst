@@ -1,6 +1,5 @@
-la\burden\holyteams\commands\InviteCommand.class
 la\burden\holyteams\commands\TeamCommand.class
 la\burden\holyteams\commands\HolyTeamsCommand.class
+la\burden\holyteams\util\SpigotUtils.class
+la\burden\holyteams\util\SpigotUtils$1.class
 la\burden\holyteams\HolyTeams.class
-la\burden\holyteams\commands\ClaimCommand.class
-la\burden\holyteams\commands\HomeCommand.class
