@@ -10,9 +10,9 @@ public class HolyTeamsCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-        if (sender instanceof Player) {
-            sender.sendMessage(ChatColor.AQUA + "HolyTeams command");
-        }
+
+        if (sender instanceof Player) { sender.sendMessage(ChatColor.AQUA + "HolyTeams command"); }
+
         return true;
     }
 }

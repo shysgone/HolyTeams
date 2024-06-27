@@ -11,9 +11,7 @@ public class TeamCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 
-        if (sender instanceof Player) {
-            sender.sendMessage(ChatColor.DARK_RED + "Team command");
-        }
+        if (sender instanceof Player) { sender.sendMessage(ChatColor.DARK_RED + "Team command"); }
 
         return true;
     }
