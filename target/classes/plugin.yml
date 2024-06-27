@@ -1,0 +1,7 @@
+name: HolyTeams
+version: '1.0-SNAPSHOT'
+main: la.burden.holyteams.HolyTeams
+commands:
+  holyteams:
+    description: Main command for HolyTeams
+    usage: /<command>
