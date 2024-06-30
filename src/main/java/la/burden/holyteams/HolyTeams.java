@@ -1,20 +1,28 @@
 package la.burden.holyteams;
 
-import la.burden.holyteams.command.HolyTeamsCommand;
-import la.burden.holyteams.command.TeamCommand;
+import la.burden.holyteams.commands.Teams.TeamCommand;
 import org.bukkit.plugin.java.JavaPlugin;
+import revxrsal.commands.bukkit.BukkitCommandHandler;
 
 public final class HolyTeams extends JavaPlugin {
+    public static HolyTeams instance;
+
 
     @Override
     public void onEnable() {
-        getLogger().info("HolyTeams is enabled");
-        registerCommands();
-    }
+        instance = this;
+        BukkitCommandHandler handler = BukkitCommandHandler.create(instance);
 
-    private void registerCommands() {
-        getCommand("holyteams").setExecutor(new HolyTeamsCommand());
-        getCommand("team").setExecutor(new TeamCommand());
+        handler.register(
+                new TeamCommand()
+        );
+
+
+
+        getLogger().info("HolyTeams is enabled");
+
+
+
     }
 
     @Override

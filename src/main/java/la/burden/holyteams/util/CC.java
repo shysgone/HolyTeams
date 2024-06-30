@@ -1,6 +1,17 @@
 package la.burden.holyteams.util;
 
-public class SpigotUtils {
+import net.md_5.bungee.api.ChatColor;
+
+public class CC {
+
+    public static String translate(String message) {
+        return ChatColor.translateAlternateColorCodes('&', message);
+    }
+
+    public static String translate(org.bukkit.ChatColor color, String message) {
+        return toBungee(color) + message;
+    }
+
     public static net.md_5.bungee.api.ChatColor toBungee(org.bukkit.ChatColor color) {
         switch (color) {
             case BLACK:

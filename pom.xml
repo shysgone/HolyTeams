@@ -63,8 +63,16 @@
           <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
       </repository>
       <repository>
+          <id>papermc-repo</id>
+          <url>https://repo.papermc.io/repository/maven-public/</url>
+      </repository>
+      <repository>
           <id>sonatype</id>
           <url>https://oss.sonatype.org/content/groups/public/</url>
+      </repository>
+      <repository>
+          <id>jitpack.io</id>
+          <url>https://jitpack.io</url>
       </repository>
   </repositories>
 
@@ -74,6 +82,18 @@
           <artifactId>spigot-api</artifactId>
           <version>1.8.8-R0.1-SNAPSHOT</version>
           <scope>provided</scope>
+      </dependency>
+
+      <dependency>
+          <groupId>com.github.Revxrsal.Lamp</groupId>
+          <artifactId>common</artifactId>
+          <version>3.2.1</version>
+      </dependency>
+
+      <dependency>
+          <groupId>com.github.Revxrsal.Lamp</groupId>
+          <artifactId>bukkit</artifactId>
+          <version>3.2.1</version>
       </dependency>
   </dependencies>
 </project>
