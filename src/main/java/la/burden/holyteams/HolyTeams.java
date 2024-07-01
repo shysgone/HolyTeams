@@ -1,6 +1,6 @@
 package la.burden.holyteams;
 
-import la.burden.holyteams.commands.Teams.TeamCommand;
+import la.burden.holyteams.commands.Factions.Teams.TeamCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 import revxrsal.commands.bukkit.BukkitCommandHandler;
 

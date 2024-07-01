@@ -1,4 +1,4 @@
-package la.burden.holyteams.commands.Home;
+package la.burden.holyteams.commands.World.Home;
 
 import org.bukkit.entity.Player;
 import revxrsal.commands.annotation.Command;

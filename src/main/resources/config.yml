@@ -1,0 +1,9 @@
+Database:
+  Host: localhost
+  Port: 3306
+  Name: "test"
+
+
+Messages:
+  "player_not_found": "&cERROR! &fPlayer not found!"
+  "already_in_logout_queue": "&cERROR! &fYou are already in the logout queue!"

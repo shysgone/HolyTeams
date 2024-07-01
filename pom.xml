@@ -89,7 +89,12 @@
           <artifactId>common</artifactId>
           <version>3.2.1</version>
       </dependency>
-
+      <!--ik this is prob not a good idea but uh its really clean to use-->
+      <dependency>
+          <groupId>com.github.HyperSkys</groupId>
+          <artifactId>Configurator</artifactId>
+          <version>2.0.1-STABLE</version>
+      </dependency>
       <dependency>
           <groupId>com.github.Revxrsal.Lamp</groupId>
           <artifactId>bukkit</artifactId>
